@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 这是一个jekyll生成的网站
+title: 记录、学习地带
 email: zengyongsun@163.com
 description: > # this means to ignore newlines until "baseurl:"
-  Android 
+  岂能尽如人意，但求无愧于心！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+twitter_username: day_day_happy
+github_username:  zengyongsun
+author: 曾泳
 # Build settings
 markdown: kramdown
 theme: minima

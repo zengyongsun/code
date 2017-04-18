@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">目录：</h1>
+  
+  {{ content }}
+  <P>没有设计过的界面果然吃藕，-_-</p>
+
+  <div align="center"><img src="/img/2.gif"></div>
+
+  <div align="center"><img src="/img/1.gif"></div>
+   
+  <img src="/img/1.jpg">
+
+   
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+
+</div>
