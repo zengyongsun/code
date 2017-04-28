@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "JavaSctipt基本概念"
+date:   2017-04-28 13:19:48 +0800
+categories: javascript
+---
+
 # 语法
 ECMAScript 的语法大量借鉴了 C 及其他类 C 语言（如 Java 和 Perl）
 #### 区分大小写
@@ -11,12 +18,6 @@ ECMAScript 的语法大量借鉴了 C 及其他类 C 语言（如 Java 和 Perl�
 >不能把关键字、保留字、ture、false 和 null用作标识符
 
 #### 注释
----
-layout: post
-title:  "JavaSctipt基本概念"
-date:   2017-04-28 13:19:48 +0800
-categories: javascript
----
 使用 C 风格的注释，
 - 行注释
 `//行注释`
@@ -46,6 +47,7 @@ ECMAScript 中的语句以一个分号结尾；如果省略分号，则由解析
 | debugger  | function  | this  | with  |
 | default  | if  | throw  | delete  |
 | in  | try  |
+
 - 保留字
 
 |   |   |   |   |
